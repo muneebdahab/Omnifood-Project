@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  border: 5px solid;
+}
+
+.title {
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+/* PRODUCT PRICING */
+.price {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.shipping {
+  font-size: 12px;
+  font-weight: bold;
+  color: #777;
+  text-transform: uppercase;
+}
+
+/* PRODUCT INSIGHT */
+.info:link,
+info:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+.info:hover,
+.info:active {
+  color: black;
+  text-decoration: none;
+}
+
+/* PRODUCT DETAILS */
+.product-detail {
+  list-style: square;
+}
+
+/* BUTTON */
+button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: black;
+  background-color: white;
+}
