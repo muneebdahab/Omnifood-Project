@@ -1,12 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1.4;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
   border: 5px solid;
 }
 
 .title {
   text-align: center;
   background-color: #f7f7f7;
+  padding: 15px;
 }
 
 /* PRODUCT PRICING */
@@ -22,6 +33,11 @@ body {
   text-transform: uppercase;
 }
 
+.dressing-up {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 /* PRODUCT INSIGHT */
 .info:link,
 info:visited {
@@ -35,9 +51,16 @@ info:visited {
   text-decoration: none;
 }
 
+h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 /* PRODUCT DETAILS */
 .product-detail {
   list-style: square;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 /* BUTTON */
@@ -46,6 +69,9 @@ button {
   color: white;
   font-size: 20px;
   cursor: pointer;
+  width: 100%;
+  padding: 15px;
+  border-top: 5px solid;
 }
 
 button:hover {
