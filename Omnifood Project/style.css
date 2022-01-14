@@ -63,6 +63,10 @@ h3 {
   margin-bottom: 20px;
 }
 
+.product-detail li {
+  margin-bottom: 10px;
+}
+
 /* BUTTON */
 button {
   background-color: black;
