@@ -14,6 +14,7 @@ body {
   margin-top: 25px;
   margin-bottom: 25px;
   border: 5px solid;
+  position: relative;
 }
 
 .title {
@@ -21,18 +22,6 @@ body {
   background-color: #f7f7f7;
   padding: 15px;
   position: relative;
-}
-
-.title::after {
-  content: "SALE";
-  color: white;
-  background: red;
-  position: inline-block;
-  position: absolute;
-  margin-top: -35px;
-  margin-left: -670px;
-  font-size: 15px;
-  padding: 10px 15px;
 }
 
 /* PRODUCT PRICING */
@@ -46,6 +35,17 @@ body {
   font-weight: bold;
   color: #777;
   text-transform: uppercase;
+}
+
+.sale {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 7px 15px;
+  display: inline-block;
+  position: absolute;
+  top: -18px;
+  left: -40px;
 }
 
 .dressing-up {
