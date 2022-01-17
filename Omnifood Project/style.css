@@ -12,6 +12,7 @@ body {
   width: 800px;
   margin: 0 auto;
   margin-top: 25px;
+  margin-bottom: 25px;
   border: 5px solid;
 }
 
@@ -67,14 +68,67 @@ info:visited {
 
 h3 {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+/* COLORED BOXES  */
+.info {
+  position: absolute;
+}
+
+.black-color {
+  position: relative;
+  display: inline-block;
+  background-color: black;
+  padding: 10px 10px;
+  margin-top: 40px;
+}
+
+.blue-color {
+  position: relative;
+  display: inline-block;
+  background-color: blue;
+  padding: 10px 10px;
+  margin-left: 15px;
+}
+
+.red-color {
+  position: relative;
+  display: inline-block;
+  background-color: red;
+  padding: 10px 10px;
+  margin-left: 15px;
+}
+
+.yellow-color {
+  position: relative;
+  display: inline-block;
+  background-color: yellow;
+  padding: 10px 10px;
+  margin-left: 15px;
+}
+
+.lime-color {
+  position: relative;
+  display: inline-block;
+  background-color: lime;
+  padding: 10px 10px;
+  margin-left: 15px;
+}
+
+.brown-color {
+  position: relative;
+  display: inline-block;
+  background-color: brown;
+  padding: 10px 10px;
+  margin-left: 15px;
 }
 
 /* PRODUCT DETAILS */
 .product-detail {
   list-style: square;
   margin-left: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .product-detail li {
