@@ -58,6 +58,8 @@ body {
 info:visited {
   color: black;
   text-decoration: underline;
+  margin-bottom: 20px;
+  display: inline-block;
 }
 
 .info:hover,
@@ -72,10 +74,6 @@ h3 {
 }
 
 /* COLORED BOXES  */
-
-.colors {
-  margin-top: 15px;
-}
 
 .black-color {
   background-color: black;
