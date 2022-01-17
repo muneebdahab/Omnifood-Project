@@ -72,55 +72,60 @@ h3 {
 }
 
 /* COLORED BOXES  */
-.info {
-  position: absolute;
+
+.colors {
+  margin-top: 15px;
 }
 
 .black-color {
-  position: relative;
-  display: inline-block;
   background-color: black;
-  padding: 10px 10px;
-  margin-top: 40px;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
 }
 
 .blue-color {
-  position: relative;
+  /* position: relative; */
   display: inline-block;
   background-color: blue;
-  padding: 10px 10px;
+  width: 22px;
+  height: 22px;
   margin-left: 15px;
 }
 
 .red-color {
-  position: relative;
+  /* position: relative; */
   display: inline-block;
   background-color: red;
-  padding: 10px 10px;
+  width: 22px;
+  height: 22px;
   margin-left: 15px;
 }
 
 .yellow-color {
-  position: relative;
+  /* position: relative; */
   display: inline-block;
   background-color: yellow;
-  padding: 10px 10px;
+  width: 22px;
+  height: 22px;
   margin-left: 15px;
 }
 
 .lime-color {
-  position: relative;
+  /* position: relative; */
   display: inline-block;
   background-color: lime;
-  padding: 10px 10px;
+  width: 22px;
+  height: 22px;
   margin-left: 15px;
 }
 
 .brown-color {
-  position: relative;
+  /* position: relative; */
   display: inline-block;
   background-color: brown;
-  padding: 10px 10px;
+  width: 22px;
+  height: 22px;
   margin-left: 15px;
 }
 
