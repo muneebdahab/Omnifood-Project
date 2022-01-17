@@ -11,6 +11,7 @@ body {
 .container {
   width: 800px;
   margin: 0 auto;
+  margin-top: 25px;
   border: 5px solid;
 }
 
@@ -18,6 +19,19 @@ body {
   text-align: center;
   background-color: #f7f7f7;
   padding: 15px;
+  position: relative;
+}
+
+.title::after {
+  content: "SALE";
+  color: white;
+  background: red;
+  position: inline-block;
+  position: absolute;
+  margin-top: -35px;
+  margin-left: -670px;
+  font-size: 20px;
+  padding: 5px 10px;
 }
 
 /* PRODUCT PRICING */
